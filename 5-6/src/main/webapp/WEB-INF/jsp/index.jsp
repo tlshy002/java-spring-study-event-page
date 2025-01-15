@@ -7,22 +7,19 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div align="center" class="body">
-<h2>과일 목록 화면</h2>
-<table border="1">
-	<tr class="header">
-		<th align="center" width="80">상품번호</th>
-		<th align="center" width="320">상품이름</th>
-		<th align="center" width="100">상품가격</th>
+<div align="center">
+<h2>메일 화면</h2>
+<table>
+	<tr>
+		<td align="center" width="100">
+		<a href="../event/event.html">■ 이벤트 검색</a></td> <!-- 앵커이동은 get연결 -->
 	</tr>
-	<c:forEach var="item" items="${itemList}">
-	<tr class="record">
-		<th align="center">${item.seqno}</th>
-		<th align="center">${item.title}</th>
-		<th align="center">${item.price}</th>
+	<tr>
+		<td align="center" width="100">
+		<a href="#">■ 예약 완료 티켓 목록</a></td>
 	</tr>
-	</c:forEach>
 </table>
 </div>
+
 </body>
 </html>

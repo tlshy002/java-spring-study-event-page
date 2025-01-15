@@ -11,7 +11,7 @@
 		<title>Welcome</title>
 	</head> 
 	<body>
-		<c:url value="/showMessage.html" var="messageUrl" />
-		<a href="${messageUrl}">Click to enter</a>
+		<c:url value="/index/index.html" var="messageUrl" />
+		<a href="${messageUrl}">홈으로 가기</a>
 	</body>
 </html>
